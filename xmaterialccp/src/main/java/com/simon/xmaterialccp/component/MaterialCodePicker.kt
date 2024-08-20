@@ -102,7 +102,7 @@ class MaterialCodePicker {
                 if (showCountryFlag) {
                     Image(
                         modifier = modifier
-                            .width(26.dp)
+                            .widthIn(min = 26.dp)
                             .background(shape = flagShape, color = Color.Transparent)
                             .clip(flagShape)
                             .clipToBounds(),
